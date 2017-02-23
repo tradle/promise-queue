@@ -1,0 +1,25 @@
+{
+  "name": "ya-promise-queue",
+  "version": "1.0.0",
+  "description": "yet another promise queue",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tradle/promise-queue"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "keywords": [
+    "queue",
+    "promise-queue",
+    "in-memory"
+  ]
+}
