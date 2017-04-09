@@ -1,6 +1,6 @@
 {
   "name": "ya-promise-queue",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "yet another promise queue",
   "main": "index.js",
   "repository": {
