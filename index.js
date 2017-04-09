@@ -1,5 +1,5 @@
-const Promise = require('bluebird')
-const co = Promise.coroutine
+const Promise = require('any-promise')
+const co = require('co').wrap
 
 module.exports = function promiseQueue () {
   const tasks = []

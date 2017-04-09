@@ -1,5 +1,5 @@
-const Promise = require('bluebird')
-const co = Promise.coroutine
+const Promise = require('any-promise')
+const co = require('co').wrap
 const test = require('tape')
 const createPromiseQueue = require('./')
 
